@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    transition: ease 0.2s;
+
+}
+
+body {
+    width: 100%;
+    height: 90vh;
+    background-image: url("sliki/pexels-li-sun-2294361.jpg");
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(196, 74, 82, 0.212);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.559);
+
+}
+
+.text ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text ul li {
+    padding-left: 200px;
+}
+
+.text ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.text ul li a:hover {
+    color: rgb(196, 74, 82);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.plan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 75vh;
+    background-color: #ffffff10;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    margin-top: 60px;
+}
+
+.exercises {
+    display: flex;
+    align-items: center;
+}
+
+.workout-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 30px;
+    flex-wrap: wrap;
+}
+
+.workout-group li {
+    padding-bottom: 20px;
+}
+
+.workout-group ol li {
+    font-size: 20px;
+    font-weight: 1000;
+    list-style: circle;
+    text-align: center;
+}
+
+.workout-group ol {
+    width: 200px;
+    background-color: rgba(196, 74, 82, 0.212);
+}
+
+h3 {
+    font-size: 40px;
+    color: rgb(196, 74, 82);
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+}
