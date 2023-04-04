@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="forma-style.css" />
+  </head>
+  <body>
+    <form action="">
+      <h1>EVENT REGISTRATION FORM</h1>
+      <div class="form-child">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required />
+        <br /><br />
+      </div>
+      <div class="form-child">
+        <label for="lastname">Last Name</label>
+        <input type="text" name="lastname" id="lastname" required />
+        <br /><br />
+      </div>
+      <div class="form-child">
+        <label for="company">Company</label>
+        <input type="text" name="company" id="company" required />
+        <br /><br />
+      </div>
+      <div class="form-child">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required />
+        <br /><br />
+      </div>
+      <div class="form-child">
+        <label for="phone">Phone</label>
+        <input type="number" name="phone" id="phone" required />
+        <br /><br />
+      </div>
+      <div class="form-child">
+        <label for="subject">Subject</label>
+        <select name="subject" id="subject" required>
+          <option disabled selected>Choose Option</option>
+          <option value="math">Math</option>
+          <option value="webdevelopment">Web Development</option>
+          <option value="music">Music</option>
+          <option value="geography">Geography</option>
+        </select>
+        <br /><br />
+      </div>
+      <div class="form-child">
+        <p>Are you an existing customer?</p>
+        <input type="radio" name="answer" id="yes" value="yes" />
+        <label for="male">Yes</label>
+        <input type="radio" name="answer" id="no" />
+        <label for="no">No</label>
+        <br /><br />
+      </div>
+      <div class="form-child">
+        <input type="submit" name="register" id="register" value="REGISTER" />
+      </div>
+    </form>
+  </body>
+</html>
