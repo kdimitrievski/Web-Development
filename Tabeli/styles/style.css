@@ -1,0 +1,21 @@
+table {
+    width: 500px;
+    height: 500px;
+}
+
+.redBox {
+    background-color: red;
+}
+
+.greenBox {
+    background-color: green;
+}
+
+.blueBox {
+    background-color: blue;
+}
+
+.yellowBox {
+    background-color: yellow;
+}
+
